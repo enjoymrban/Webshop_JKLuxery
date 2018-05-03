@@ -1,0 +1,528 @@
+/*Schriftarten*/
+@import url(https://fonts.googleapis.com/css?family=Cabin);
+/*Icons Navbar*/
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+
+/*Awesome Font*/
+@import url("../font-awesome-4.7.0/css/font-awesome.min.css");
+
+
+/*general*/
+html {
+
+    height: 100%;
+
+}
+
+body {
+
+    height: 100%
+
+}
+
+
+.backgroundBlack {
+    position: relative;
+    min-height: 100%;
+    height: auto !important;
+    background-image: none;
+    background-color: black !important;
+}
+
+.backgroundImage{
+
+    position: relative;
+    min-height: 100%;
+    height: auto !important;
+    background: linear-gradient(#D9AD00, #623600);
+    background-size: cover;
+    background-position: center 0;
+    background-repeat: no-repeat;
+}
+
+#content {
+    padding-bottom: 100px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 100%;
+}
+
+
+/*footer*/
+#footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom:5px;
+}
+
+.fa {
+
+    margin-right: 15px;
+}
+
+
+#social-fb,
+#social-tw,
+#social-em {
+
+    color: rgb(217, 173, 0);
+}
+
+#social-fb:hover,
+#social-tw:hover,
+#social-em:hover{
+
+    color: rgb(191, 152, 0);
+
+}
+
+
+/* Carousell*/
+
+
+
+
+
+
+
+/*Produkte, Card*/
+
+
+
+.col-sm-12,
+.col-md-6,
+.col-lg-4,
+.col-xl-3 {
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+
+
+
+
+
+}
+
+.card {
+    border-color: black;
+    border-width: 2px;
+
+    display: flex;
+
+    margin: 0 auto;
+    float: none;
+
+
+
+}
+
+#products .card {
+    max-width: 350px;
+
+
+}
+
+#products .card a:first-child{
+
+    height: 100%;
+
+
+}
+
+
+
+
+
+.card p:nth-last-child(1){
+
+    margin-top: -15px;
+
+
+
+}
+
+
+.card a:hover{
+
+    text-decoration: none;
+
+}
+
+
+
+p.card-text {
+
+    padding: 0px; !important;
+}
+
+.btn-primary {
+    margin-top: 5px;
+}
+
+
+.staryellow{
+
+    color: rgb(217, 173, 0);
+
+}
+
+/*Navigation*/
+
+.form-inline .form-control{
+
+    width: 180px;
+}
+
+.material-icons {
+    vertical-align: middle;
+
+}
+
+.navbar,
+.navbar-expand-lg {
+
+    background-color: black;
+    font-family: 'Cabin', sans-serif;
+    margin: 0 auto;
+
+}
+
+a.rightNav {
+    color: white;
+
+}
+
+.navbar .navbar-nav .nav-link {
+    color: white; /* farbe der Links in der Navbar */
+    border-radius: 0.5rem; /* Abrundug der Ecken der Käschen wenn Aktiv */
+
+}
+
+.navbar .navbar-nav .nav-link:not(.disabled):hover {
+    color: gold; /* Farbe wenn hover über link in Navbar */
+}
+
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus {
+    color: black;
+    background-color: rgb(217, 173, 0);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar .navbar-toggle { /*toggle button*/
+
+    padding: .25rem .75rem;
+    /* font-size: 1.25rem;*/
+    /* line-height: 10;*/
+    background: black;
+    border: 1px solid rgb(217, 173, 0);
+    border-radius: .25rem;
+}
+
+.navbar .icon-bar /* striche in der Mitte des toggle Buttons*/
+{
+    margin-bottom: 4px;
+    margin-top: 4px;
+    display: block;
+
+    width: 22px; /* Länge der Striche */
+    height: 2px; /* Breite der Striche */
+    border-radius: 1px; /* Rundung der boarder "Ecken" */
+    border: 1px solid rgb(217, 173, 0); /* Breite der Border um die Striche, Konsistenz, Farbe */
+    background-color: rgb(217, 173, 0); /* Füllfarbe */
+}
+
+.btn-outline-warning { /* Suche button Farbe wenn inaktiv*/
+    color: gold;
+    border-color: rgb(217, 173, 0);
+}
+
+.btn-outline-warning:hover
+{ /* Suche button wenn hover */
+    color: black;
+    background-color: rgb(217, 173, 0);
+    border-color: rgb(217, 173, 0);
+}
+
+.btn-outline-warning{
+    color: rgb(217, 173, 0);
+    background-color: transparent;
+    background-image: none;
+    border-color: rgb(217, 173, 0);
+}
+
+
+
+/*Rezension*/
+
+.tableRez{
+
+    max-height: 500px;
+    overflow: auto;
+
+}
+
+
+@media only screen and (min-height: 846px) {
+     
+     .tableRez{
+
+	 max-height: 500px;
+
+
+     }
+
+}
+
+@media only screen and (min-height: 974px) {
+     
+     .tableRez{
+
+	 max-height: 650px;
+
+
+     }
+
+}
+
+
+.rezImg{
+    max-width: 100px;
+}
+
+/*Stars*/
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align: left;
+}
+
+.rating > span {
+    display: inline-block;
+    width: 1.1em;
+}
+
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+    content: "\2605";
+    position: absolute;
+}
+
+#star-feedback,
+#button-feedback{
+    display: none;
+    margin-top: .25rem;
+    font-size: .875rem;
+    color: #980f1c;
+    margin-bottom: -2px;
+
+}
+
+.invalid-feedback {
+    color: #980f1c;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: black;
+    margin: auto;
+    padding: 0;
+    border: 1px solid black;
+    width: 40%;
+    min-width: 180px;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+
+}
+
+@media only screen and (max-width: 949px) {
+     
+     .modal-content
+     {
+        /*font-size: 150%;*/
+       width:  50%;
+        
+    }
+}
+
+
+@media only screen and (max-width: 774px) {
+  .modal-content{
+        width: 60%
+        
+    }
+}
+
+@media only screen and (max-width: 647px) {
+  .modal-content{
+        width: 70%
+        
+    }
+}
+
+@media only screen and (max-width: 550px) {
+  .modal-content{
+        width: 80%
+        
+    }
+
+}
+@media only screen and (max-width: 497px) {
+  .modal-content{
+        width: 100%
+        
+    }
+}
+
+
+@media only screen and (max-width: 397px) {
+
+
+     .modal-header h2,
+     .modal-footer h3,
+     .modal-body{
+        font-size: 80%;
+        
+    }
+}
+
+
+
+
+
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: gray;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: black;
+    color: rgb(217, 173, 0);
+}
+
+.modal-body {padding: 2px 16px;
+background-color:rgb(217, 173, 0);}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: black;
+    color: rgb(217, 173, 0);
+}
+
+
+/* Product detail*/
+
+p.price {
+
+    font-weight: bold;
+
+
+}
+/*Einkaufswagen */
+#bestellBtn .btn-default,
+#clearBtn .btn-default {
+
+    background-color: #32383e;
+    border-color: #32383e;
+    color: white;
+}
+
+#cart{
+
+    margin-right: 10%;
+    margin-left: 10%;
+
+}
+
+div#bestellBtn {
+
+    float:left;
+}
+div#clearBtn{
+
+    float:right;
+}
+
+@media only screen and (max-width: 469px) {
+    div#clearBtn {
+        float:left;
+    }
+}
+
+.fa-remove:before, .fa-close:before, .fa-times:before{
+    color:red;
+
+
+
+}
+
+/* Productdetail*/
+
+.imgProductDetail{
+
+    height: 100%;
+
+}
+
+
+#product-detail .card {
+
+    max-width: 1000px;
+
+
+}
+
