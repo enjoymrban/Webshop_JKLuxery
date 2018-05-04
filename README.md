@@ -1,3 +1,8 @@
+
+#Webshop deployed on https://jkluxery.herokuapp.com/
+
+
+
 # Hausarbeit Web Shop
 
 ## Applikation lokal starten
